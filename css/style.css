@@ -8,6 +8,8 @@ html{scroll-behavior: smooth;}
 
 .px-2{padding-left: 10px;padding-right: 10px;}
 
+.boa{border-left:solid rgb(249, 191, 63) 6px;margin-left: 40px;}
+
 .fs32{font-size: 32px;}
 
 .fs15{font-size: 15px;}
@@ -29,8 +31,6 @@ html{scroll-behavior: smooth;}
 .mar{margin: 0 auto;width: 188px;}
 
 .box1{background-color: rgb(249, 191, 63);font-size: 27px;padding:28px}
-
-
 
 .bos{box-shadow: 0 10px 90px rgba(0, 0, 0, .2);}
 
@@ -59,7 +59,7 @@ a{color: black;}
 
 a:hover{color: royalblue;}
 
-.box2{background-color: rgb(249, 191, 63);font-size: 18px;padding: 25px;border-left: solid rgb(247, 247, 247) 40px;}
+.box2{background-color: rgb(249, 191, 63);font-size: 18px;padding: 25px;margin-left: 40px;}
 
 .im{width: 100%;height: auto;max-width: 150px;}
 
@@ -69,5 +69,9 @@ a:hover{color: royalblue;}
 @media only screen and (max-width: 800px){
     .tog{display: none;}
     .who{margin-left: 0px;}
+    .boa{margin-left: 20px;}
+    .box2{margin-left: 20px;}
+    .box1{text-align: center;}
+    .al{text-align: center;}
 }
 
