@@ -55,6 +55,8 @@ html{scroll-behavior: smooth;}
 
 .icons{font-size: 30px;background-color: white;}
 
+.tog{position: fixed;width: 300px;overflow: hidden;}
+
 a{color: black;}
 
 a:hover{color: royalblue;}
@@ -65,13 +67,20 @@ a:hover{color: royalblue;}
 
 .who{margin-left: 300px;padding: 24px;}
 
+.but{position: fixed;left: 0px;right: 0px;border: 0px;padding: 5px;font-size: 20px;display: none;}
+
+
+.butt{position: fixed;left: 300px;right: 0px;border: 0px;padding: 5px;font-size: 20px;display: none;}
+
 
 @media only screen and (max-width: 800px){
-    .tog{display: none;}
+    .tog{width: 0px;}
     .who{margin-left: 0px;}
     .boa{margin-left: 20px;}
     .box2{margin-left: 20px;}
     .box1{text-align: center;}
     .al{text-align: center;}
+    .but{display: block;}
+
 }
 
