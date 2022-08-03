@@ -1,0 +1,95 @@
+.col3{background-color: rgb(249, 191, 63);height:100vh;}
+
+body{background-color: rgb(247, 247, 247);margin: 0px;}
+
+html{scroll-behavior: smooth;}
+
+.TEX{text-align: center;}
+
+.texr{text-align: right;}
+
+.px-2{padding-left: 10px;padding-right: 10px;}
+
+.boa{border-left:solid rgb(249, 191, 63) 6px;margin-left: 40px;}
+
+.fs32{font-size: 32px;}
+
+.fs15{font-size: 15px;}
+
+.fs18{font-size: 18px;}
+
+.fs45{font-size: 45px;}
+
+.fs37{font-size: 37px;}
+
+.fs13{font-size: 13px;}
+
+.lh{line-height: 35px;}
+
+.bor{border: solid rgb(5, 5, 5) 4px;border-radius: 50%;}
+
+.lin{font-size: 30px;color: black;}
+
+.mar{margin: 0 auto;width: 188px;}
+
+.box1{background-color: rgb(249, 191, 63);font-size: 27px;padding:28px}
+
+.bos{box-shadow: 0 45px 40px rgba(0, 0, 0, .2);}
+
+.color1{color: rgb(48, 164, 153);border-bottom: solid rgb(48, 164, 153) 3px;}
+
+.color2{color: rgb(237, 115, 114);border-bottom: solid rgb(237, 115, 114) 3px;}
+
+.color3{color: rgb(249, 191, 63);border-bottom: solid rgb(249, 191, 63) 3px;}
+
+.color4{color: rgb(168, 77, 184);border-bottom: solid rgb(168, 77, 184) 3px;}
+
+.pd5{padding: 5px;}
+
+.pd20{padding: 20px;}
+
+.pd0{padding: 0px;}
+
+.hei{height: 220px;}
+
+.ls{letter-spacing: 3px;}
+
+
+.boxz{background-color: rgb(249, 191, 63);font-size: 17px;padding:25px;text-align: center;}
+
+.icons{font-size: 30px;background-color: white;}
+
+.br30r{border-bottom-right-radius: 30px;}
+
+.br30l{border-bottom-left-radius: 30px;}
+
+.tog{position: fixed;width: 300px;overflow: hidden;}
+
+a{color: black;}
+
+a:hover{color: royalblue;}
+
+.box2{background-color: rgb(249, 191, 63);font-size: 18px;padding: 25px;margin-left: 40px;}
+
+.im{width: 100%;height: auto;max-width: 150px;}
+
+.who{margin-left: 300px;padding: 24px;}
+
+.but{position: fixed;left: 0px;right: 0px;border: 0px;padding: 5px;font-size: 20px;display: none;}
+
+
+.butt{position: fixed;left: 300px;right: 0px;border: 0px;padding: 5px;font-size: 20px;display: none;}
+
+.mart{margin: 15px;}
+
+@media only screen and (max-width: 800px){
+    .tog{width: 0px;}
+    .who{margin-left: 0px;}
+    .boa{margin-left: 20px;}
+    .box2{margin-left: 20px;}
+    .box1{text-align: center;}
+    .al{text-align: center;}
+    .but{display: block;}
+
+}
+
